@@ -11,7 +11,7 @@ public class donorApi {
         return "home";
     }
 
-    @RequestMapping(value = "/donor",method = RequestMethod.GET)
+    @RequestMapping(value = "/donor ",method = RequestMethod.GET)
     public String donor(){
         return "home For Donor";
     }
