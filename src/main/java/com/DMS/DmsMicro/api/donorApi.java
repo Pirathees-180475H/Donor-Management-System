@@ -10,4 +10,9 @@ public class donorApi {
     public String home(){
         return "home";
     }
+
+    @RequestMapping(value = "/donor",method = RequestMethod.GET)
+    public String donor(){
+        return "home For Donor";
+    }
 }
