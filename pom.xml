@@ -16,7 +16,9 @@
 	<description>dmsMicroService</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<start-class>com.DMS.DmsMicro.DmsMicroApplicationTests</start-class>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,7 +48,8 @@
 
 	<build>
 		<plugins>
-			<plugin><!-- don't pack the war  -->
+			<!-- don't pack the war  -->
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<executions>
